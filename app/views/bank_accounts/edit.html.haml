@@ -1,0 +1,7 @@
+%h1 
+  Editing Bank Account For: = @bank_account.intitution
+%hr
+
+= render(partial: 'form')
+
+= link_to 'All Accounts', bank_account_path(@bank_account)
